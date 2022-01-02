@@ -1,0 +1,16 @@
+div {
+  font-family: "Montserrat", sans-serif;
+}
+
+.letter {
+  display: inline;
+  transition: all 0.5s;
+}
+
+.big {
+  font-size: 2em;
+}
+
+.small {
+  font-size: 1em;
+}

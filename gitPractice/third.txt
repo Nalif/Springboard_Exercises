@@ -1,0 +1,5 @@
+<<<<<<< HEAD
+asdfasdfaf
+=======
+adfasdfasdf
+>>>>>>> testingasdf

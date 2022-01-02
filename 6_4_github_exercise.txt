@@ -1,0 +1,21 @@
+Part I
+1. 
+mkdir github_exercise
+cd github_exercise
+git init
+touch file.txt
+echo blah > file.txt
+git add .
+git commit
+2. 
+git remote add origin https://github.com/Nalif/Springboard_Exercises.git
+git push
+3.
+git checkout -b new_branch
+touch new_file.txt
+git commit -m "added new_file.txt"
+4.
+git push
+
+Part II:
+https://github.com/Nalif/JavaScript-Practice/tree/main/4_5_Memory_Game
