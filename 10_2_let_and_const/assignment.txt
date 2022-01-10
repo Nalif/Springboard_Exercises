@@ -1,0 +1,6 @@
+const PI = 3.14;
+
+1. var is function-scoped and can be redeclared. let is block-scoped and cannot be redeclared.
+2. var is function-scoped and can be redeclared and reassigned. const is block-scoped and cannot be redeclared or reassigned.
+3. let can be reassigned and const cannot.
+4. hoisting is where a variable's name can be accessed prior to it being initialized. This is a function of the compiler. Var can be hoisted, but not let and const.
