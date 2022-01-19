@@ -1,5 +1,3 @@
-console.log("it's working!");
-
 function createInstructor(firstName, lastName) {
   return {
     firstName,
