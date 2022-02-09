@@ -1,0 +1,16 @@
+1. set {1,2,3,4}
+2. ref
+3. Map {[1,2,2] => true, [1,2,3] => false }
+4. const checkDupes = (array) => new Set(array).size !== array.length;
+5. function vowelCount(string) {
+  const results = new Map();
+
+  for (let char of string.toLowerCase()) {
+    if ("aeiou".includes(char)) {
+      if (!results.has(char)) {
+        results.set(char, 1);
+      } else {
+        results.set(char, results.get(char) + 1);
+      }
+    }
+  }

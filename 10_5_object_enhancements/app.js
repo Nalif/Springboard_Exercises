@@ -5,7 +5,7 @@ function createInstructor(firstName, lastName) {
   };
 }
 
-let favoriteNumber = 42;
+let favoriteNumber = 42234;
 
 const instructor = {
   firstName: "Colt",
@@ -23,10 +23,9 @@ const instructor2 = {
 };
 
 function createAnimal(species, verb, noise) {
-  return {
-    species,
-    [verb]() {
-      return noise;
-    },
-  };
+  return 5 + 3;
+}
+
+function randomNum() {
+  return Math.floor(Math.random(0, 9));
 }
