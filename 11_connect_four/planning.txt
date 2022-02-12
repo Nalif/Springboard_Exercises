@@ -1,0 +1,22 @@
+what HTML would be useful for the game board itself?
+Maybe a DIV for the board and then a DIV for each square within
+
+how could you represent a played-piece in the HTML board?
+Style a div with CSS - set background color to red/blue and make it circular using the border-radius property
+
+
+in the JavaScript, what would be a good structure for the in-memory game board?
+what might the flow of the game be?
+Maybe an array of arrays
+
+Flow would be:
+Set board state to empty
+
+When square is clicked, if square is empty add token style for player
+Check for victory/tie
+Switch player
+
+Functions:
+spotOpen - check column to see if there's an available spot for a token
+checkVictory - check to see if four match up vertical/horizontal/diagonal
+checkTie - check to see if entire grid is filled
