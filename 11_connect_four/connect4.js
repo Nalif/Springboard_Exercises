@@ -136,10 +136,12 @@ function checkForWin() {
     //  - returns true if all are legal coordinates & all match currPlayer
 
     //I don't understand how this works :(
+    //wait, I think I get it now. _win takes in an array of arrays. Each sub-array is a [y,x] coordinate.
     return cells.every(
       (
-        [y, x] //what is [y,x]? Is this destructing?
+        [y, x] //here, we destruct each element into a y and x number
       ) =>
+        //and then for every y,x pair, we check to make sure it is inside the bounds of our board and we check to see if it belongs to the current player. If all of that is true, true is returned and the game is won
         y >= 0 &&
         y < height &&
         x >= 0 &&
@@ -200,6 +202,24 @@ function checkForWin() {
     }
   }
 }
+
+const horiz = [
+  [0, 0],
+  [0, 1],
+  [0, 2],
+  [0, 3],
+];
+
+horiz.every(([y, x]) => console.log(`${y},${x}`));
+horiz.every((thing) => {
+  console.log(thing);
+  return true;
+});
+
+horiz.every(([x, y]) => {
+  console.log(x);
+  return true;
+});
 
 makeBoard(width, height);
 makeHtmlBoard();
