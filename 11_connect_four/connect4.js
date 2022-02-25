@@ -203,23 +203,5 @@ function checkForWin() {
   }
 }
 
-const horiz = [
-  [0, 0],
-  [0, 1],
-  [0, 2],
-  [0, 3],
-];
-
-horiz.every(([y, x]) => console.log(`${y},${x}`));
-horiz.every((thing) => {
-  console.log(thing);
-  return true;
-});
-
-horiz.every(([x, y]) => {
-  console.log(x);
-  return true;
-});
-
 makeBoard(width, height);
 makeHtmlBoard();
