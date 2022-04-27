@@ -1,0 +1,13 @@
+1. What is HTTP - Hyptertext transfer protocol. An unencrypted protocol for retrieving data over the internet
+2. A URL is a name that a DNS server resolves to an an IP address. Usuallyused to nagivate to a website
+3. What is DNS - A domain name server is used to resolve a URL to an IP address
+4. What is a query string - extra information tacked on to the end of a URL. Often used for tracking purposes or for passing a search query
+5. What are two HTTP verbs and how are they different? - GET and POST. Get is used to retrieve info, POST is used to modify server-side info
+6. What is an HTTP request? - An HTTP request is a request to a server for info. Often used to request a website
+7. What is an HTTP response? - A response from a server to a client containing the info requested
+8. What is an HTTP header? - headers are included in responses and contain info about your request. 
+9 What are the processes that happen when you type "http://somesite.com/some/page.html" into a browser? - The browser attempts to resolve the URL to an IP address. First it checks the local cache, then the router, then the ISP, and finally pings a DNS server. Once the URL is resolved, the browser makes a request to the IP, loads the initial page and then all of the resources ( CSS/fonts/etc ) contained within that initial page.
+
+Part Two: 
+1. CURL https://icanhazdadjoke.com/search=pirate
+2. dig icanhazdadjoke.com - 104.21.37.176 and 172.67.211.64
